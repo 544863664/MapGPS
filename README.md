@@ -1,4 +1,4 @@
-# vue_cli3_test
+﻿# vue_cli3_test
 
 ## Project setup
 ```
@@ -10,7 +10,7 @@ npm install
 npm install webpack-require-http --save
 ```
 
-### 在webpack.base.conf.js 里面加入以下代码
+### 在vue.config.js 里面加入以下代码
 ```
 configureWebpack: {
 	externals: [
