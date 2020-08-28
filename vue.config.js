@@ -16,7 +16,6 @@ module.exports = {
 	},
 	publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
 	configureWebpack: {
-		// 选项...
 		externals: [
 			require('webpack-require-http')
 		],
